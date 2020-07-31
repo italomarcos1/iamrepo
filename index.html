@@ -4,10 +4,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    <link rel="stylesheet" href="styles.css">
     <title>I Am Pro</title>
+
+    <script>
+      window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+      document.getElementById("logo").style.height = "31.5px";
+    } else {
+      document.getElementById("logo").style.height = "63px";
+    }
+  } 
+    </script>
   </head>
+
   <body>
     <section id="header" class="grid">
-        <div id="logo">
+        <div id="background">
+        <div id=logo>
+          <img src="./assets/logo.png" alt="">
+        </div>
     </section>
     <button id="participe">Cadastre-se Gratuitamente</button>
   <section id="info" class="grid">
@@ -34,6 +50,7 @@
     <div>
       <img src="./assets/cards.png" alt="cards">
     </div>
+    <button id="reg">Cadastre-se Gratuitamente</button>
   </section>
   <button id="register">Cadastre-se Gratuitamente</button>
     </body>
