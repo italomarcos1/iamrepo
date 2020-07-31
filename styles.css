@@ -78,6 +78,10 @@ button {
   text-align: center;
 }
 
+#phone img {
+  width: 30%;
+}
+
 #services {
   text-align: center;
 }
