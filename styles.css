@@ -87,7 +87,7 @@ button {
 }
 
 #services ul {
-  grid-column: 1/9;
+  grid-column: 2/8;
 }
 
 #services li {
@@ -97,6 +97,7 @@ button {
   text-align: center;
   margin-top: 40px;
   position: relative;
+  padding: 0 20px;
 }
 
 #services strong {
