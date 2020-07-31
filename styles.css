@@ -85,6 +85,7 @@ li {
   border: 2px solid #145ca7;
   border-radius: 35px;
 }
+
 #content button:hover {
   background: #3a99d7;
   border: 2px solid #3a99d7;
@@ -184,17 +185,16 @@ button {
   letter-spacing: 0px;
   color: #1e1e1e;
   text-transform: uppercase;
-  margin-top: 20px;
   grid-column: 1/9;
   grid-row: 1;
-  margin-top: 31px;
+  margin-top: 51px;
 }
 
 #highlight h2 {
   font: 20px "SFPro";
   letter-spacing: 0px;
   color: #535353;
-  margin-top: 10px;
+  margin-top: 15px;
   grid-column: 1/9;
 
   grid-row: 2;
@@ -374,5 +374,10 @@ body {
     background: #145ca7;
     border: 2px solid #145ca7;
     border-radius: 35px;
+  }
+
+  #highlight button:hover {
+    background: #3a99d7;
+    border: 2px solid #3a99d7;
   }
 }
