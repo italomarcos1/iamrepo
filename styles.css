@@ -56,6 +56,40 @@ li {
   text-align: center;
 }
 
+#content {
+  display: flex;
+  flex-direction: column;
+  grid-column: 3/7;
+  grid-row: 1;
+  margin-top: 60px;
+  margin-left: 360px;
+  width: 40%;
+}
+
+#content strong {
+  text-align: left;
+  font: 40px/48px "SFProBold";
+  letter-spacing: 0px;
+  color: #141530;
+  text-transform: uppercase;
+}
+
+#content button {
+  grid-column: 3/5;
+  grid-row: 1;
+  margin-top: 40px;
+  align-self: flex-start;
+  width: 408px;
+  height: 70px;
+  background: #145ca7;
+  border: 2px solid #145ca7;
+  border-radius: 35px;
+}
+#content button:hover {
+  background: #3a99d7;
+  border: 2px solid #3a99d7;
+}
+
 button {
   background-color: #145ca7;
   height: 74px;
